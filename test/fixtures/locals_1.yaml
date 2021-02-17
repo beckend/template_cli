@@ -1,0 +1,4 @@
+list: ["aaa", "213123", "ccc"]
+lonk:
+  nest: 1
+  hm: [2]

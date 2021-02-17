@@ -1,0 +1,5 @@
+= template_cli
+
+Generate erubi templates with locals as string or json/yaml files.
+
+:include:template_cli.rdoc

@@ -1,0 +1,52 @@
+== template_cli - Generate erubi templates with locals as string or json/yaml files.
+
+v0.0.1
+
+=== Global Options
+=== --help
+Show this message
+
+
+
+=== --version
+Display the program version
+
+
+
+=== Commands
+==== Command: <tt>generate  see generate --help for flags</tt>
+Generate erubi templates with locals as string or json/yaml files.
+
+
+===== Options
+===== --file-output "/tmp/output-file"
+
+If provided will attempt to (over)write file to destination provided.
+
+[Default Value] None
+
+
+===== --locals "{ "list": [1, 2, 3, "hello"] }"
+
+Template locals/variables, accepts string or files or json or yaml contents.
+
+[Default Value] None
+
+
+===== --source "/tmp/my-file.erb"
+
+Input template as string or filepath.
+
+[Default Value] None
+
+
+==== Command: <tt>help  command</tt>
+Shows a list of commands or help for one command
+
+Gets help for the application or its commands. Can also list the commands in a way helpful to creating a bash-style completion function
+===== Options
+===== -c
+List commands one per line, to assist with shell completion
+
+
+
